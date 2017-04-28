@@ -1,0 +1,19 @@
+---
+cplusplusrpms:
+  - automake
+  - binutils-devel
+  - binutils-static
+  - bison
+  - boost-devel
+  - clang
+  - cmake
+  - elfutils-devel
+  - elfutils-libelf-devel
+  - file-devel
+  - gcc
+  - gcc-c++
+  - kernel-devel
+  - libstdc++-devel
+  - libstdc++-static
+  - libtool
+  - ncurses-devel
