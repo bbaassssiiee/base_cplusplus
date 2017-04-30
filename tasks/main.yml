@@ -18,8 +18,3 @@
   tags:
     - cplusplus
 
-- include: tests.yml
-  tags:
-    - cplusplus
-    - cplusplus_test
-    - test
