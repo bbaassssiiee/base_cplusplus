@@ -1,5 +1,6 @@
 ---
 cplusplusrpms:
+  - autoconf
   - automake
   - binutils-devel
   - binutils-static
@@ -17,3 +18,14 @@ cplusplusrpms:
   - libstdc++-static
   - libtool
   - ncurses-devel
+
+cplusplusapts:
+  - build-essential
+  - autoconf
+  - automake
+  - g++
+  - gcc
+  - gfortran
+  - libc6-dev
+  - make
+

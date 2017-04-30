@@ -7,6 +7,17 @@
   tags:
     - cplusplus
 
+- name: apt install packages for C++ development
+  when: ansible_os_family == 'Debian'
+  apt:
+    pkg: "{{ item }}"
+    update_cache: yes
+    cache_valid_time: 86400
+    state: present
+  with_items: "{{ cplusplusapts }}"
+  tags:
+    - cplusplus
+
 - include: tests.yml
   tags:
     - cplusplus
