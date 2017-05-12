@@ -1,5 +1,5 @@
-
 ---
+
 - name: yum install packages for C++ development
   when: ansible_os_family == 'RedHat'
   yum: name={{item}} state=present
