@@ -16,5 +16,10 @@ galaxy_info:
   galaxy_tags:
     - system
     - development
+    - buildserver
+    - gcc
+    - automake
+    - autoconf
+    - centos
 
 dependencies: []
