@@ -1,5 +1,10 @@
 ---
 
+- name: copy goss tests template
+  template:
+    src: test_cplusplus.yml
+    dest: /root/test_cplusplus.yml
+
 - name: yum install packages for C++ development
   when: ansible_os_family == 'RedHat'
   yum: name={{item}} state=present
